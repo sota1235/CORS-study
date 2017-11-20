@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4"
   }
 }
