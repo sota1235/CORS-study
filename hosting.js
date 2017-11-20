@@ -1,9 +1,12 @@
 const http = require('http');
+const pug = require('pug');
+const path = require('path');
 
 const PORT = 9000;
 
 const server = http.createServer((req, res) => {
-  res.end();
+  const html = pug.renderFile(path.join(__dirname, 'template', 'index.pug'));
+  res.end(html);
 });
 
 server.listen(PORT, () => {
