@@ -12,7 +12,7 @@ const makeResForCORS = (response) => {
 const makeResForPreflight = (response) => {
   response.setHeader('Access-Control-Allow-Origin', 'http://localhost:9000');
   response.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,PATCH,OPTIONS');
-  response.setHeader('Access-Control-Expose-Headers', 'X-Custom-Header,X-Node-Festival');
+  response.setHeader('Access-Control-Allow-Headers', 'X-Custom-Header,X-Node-Festival');
   response.setHeader('Access-Control-Allow-Credentials', 'true');
 };
 

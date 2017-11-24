@@ -2,7 +2,7 @@ const apiServer = 'http://localhost:8000';
 
 // Fetch API
 const headers = new Headers();
-// headers.append('X-ORIGINAL', 'hoge');
+headers.append('X-Custom-Header', 'hoge');
 
 fetch(apiServer, {
   method: 'PUT',
