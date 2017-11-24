@@ -5,9 +5,9 @@ For studying CORS
 
 ## Samples
 
-- [SOP](./sop_sample)
+- [Same Origin Policy](./sop)
 
-Browser protects server response from JavaScript access without any http headers.
+Browser protects server response from JavaScript access because of Same Origin Policy.
 
 ## Author
 
