@@ -3,6 +3,8 @@ CORS study
 
 For studying CORS
 
+**MEMO: This repository is just for studying, please DO NOT copy these codes for production code.**
+
 ## Samples
 
 - [Same Origin Policy](./sop)
