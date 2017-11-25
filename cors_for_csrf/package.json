@@ -1,0 +1,20 @@
+{
+  "name": "node_fest_2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start:api": "nodemon api.js",
+    "start:hosting": "nodemon hosting.js",
+    "start:evil": "nodemon evil.js",
+    "start": "run-p start:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
